@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/bootcamp-ui/static/css/main.d1df11e1.css",
+    "main.js": "/bootcamp-ui/static/js/main.5ddce74d.js",
+    "static/js/787.e0d4a4d9.chunk.js": "/bootcamp-ui/static/js/787.e0d4a4d9.chunk.js",
+    "index.html": "/bootcamp-ui/index.html",
+    "main.d1df11e1.css.map": "/bootcamp-ui/static/css/main.d1df11e1.css.map",
+    "main.5ddce74d.js.map": "/bootcamp-ui/static/js/main.5ddce74d.js.map",
+    "787.e0d4a4d9.chunk.js.map": "/bootcamp-ui/static/js/787.e0d4a4d9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d1df11e1.css",
+    "static/js/main.5ddce74d.js"
+  ]
+}
