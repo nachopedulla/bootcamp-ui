@@ -1,0 +1,24 @@
+.execution {
+    display: flex;
+    column-gap: 15px;
+}
+
+
+.label {
+    margin: 20px auto 10px auto;
+}
+
+
+.separator {
+    width: 100%;
+    height: 1px;
+    background-color: rgb(211, 210, 210);
+    margin: 20px auto;
+}
+
+
+@media (max-width: 900px) {
+    .execution {
+        display: block;
+    }
+}

@@ -1,0 +1,51 @@
+.toolbar {
+    display: flex;
+    height: 50px;
+    width: 100%;
+    background-color: #198754;
+    column-gap: 20px;
+    align-items: center;
+}
+
+.title {
+    margin-left: 20px;
+    width: 250px;
+    color: white;
+    height: 100%;
+    display: flex;
+    column-gap: 5px;
+    align-items: center;
+}
+
+.page-name {
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding-top: 18px;
+}
+
+.dataIcon {
+    width: 40px;
+}
+
+.menuIcon {
+    display: none;
+    width: 60px;
+    color: #fff;
+}
+
+.side-drawer {
+    width: 280px;
+}
+
+@media (max-width : 900px) {
+    .menuIcon {
+        display: block;
+    }
+    .dataIcon {
+        display: none;
+    }
+    .title {
+        margin-left: 0px;
+        text-align: center;
+    }
+}

@@ -1,0 +1,31 @@
+.results {
+    width: 60%;
+    min-height: 350px;
+    font-size: 0.8rem;
+    background-color: rgb(226, 226, 226);
+}
+
+.results-table {
+    background-color: white;
+    width: calc(100% - 20px);
+    max-width: 100%;
+    overflow-x: scroll;
+    table-layout: fixed;
+    margin: 10px;
+}
+
+.table-header {
+    text-align: start;
+    font-weight: 600;
+    height: 30px;
+    border-bottom: 1px solid rgb(192, 192, 192);
+}
+
+
+@media (max-width: 900px) {
+    .results {
+        margin-top: 165px;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+}

@@ -1,0 +1,40 @@
+.template {
+    display: flex;
+    column-gap: 10px;
+    width: 100%;
+}
+
+.template-select {    
+    width: 80%;
+    height: 40px;
+    overflow-x: scroll;
+}
+
+.sintaxis-select {
+    width: 100px;
+}
+
+.button-select {
+    width: 10%;
+}
+
+@media (max-width: 400px) {
+    .template {
+        display: block;
+    }
+    .template-select {
+        height: 30px;
+        width: 100%;
+        margin: 5px 0px;
+    }
+    .sintaxis-select {
+        height: 30px;
+        width: 100%;
+        margin: 5px 0px;
+    }
+    .button-select {
+        height: 30px;
+        width: 100%;
+        margin: 5px 0px;
+    }
+}
